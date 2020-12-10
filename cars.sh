@@ -15,4 +15,9 @@ do
   
   case "$menuOption" in
   1) echo "Enter the year of the car:"
-  read
+  read -r year
+  echo "Enter the make of the car:"
+  read -r make
+  echo "Enter the model of the car:"
+  read -r model
+  
