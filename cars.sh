@@ -14,4 +14,5 @@ do
   echo -r menuOptions
   
   case "$menuOption" in
-  1) 
+  1) echo "Enter the year of the car:"
+  read
