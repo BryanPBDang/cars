@@ -20,4 +20,11 @@ do
   read -r make
   echo "Enter the model of the car:"
   read -r model
+  car = "$year:$make:$model"
+  echo "$car" >> My_old_cars;;
+  2) sort My_old_cars;;
+  3) echo "Goodbye"
   
+  esac
+  
+done
