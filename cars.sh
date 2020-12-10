@@ -4,7 +4,7 @@
 
 Options = 0
 
-while ["Options" -ne 3]
+while ["Options" -ne "3"]
 
 do
 
@@ -14,7 +14,7 @@ do
   echo -r menuOptions
   
   case "$menuOption" in
-  1) echo "Enter the year of the car:"
+  "1") echo "Enter the year of the car:"
   read -r year
   echo "Enter the make of the car:"
   read -r make
@@ -22,9 +22,11 @@ do
   read -r model
   car = "$year:$make:$model"
   echo "$car" >> My_old_cars;;
-  2) sort My_old_cars;;
-  3) echo "Goodbye"
+  "2") sort My_old_cars;;
+  "3") echo "Goodbye"
   
   esac
+  
+  echo " "
   
 done
