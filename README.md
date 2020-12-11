@@ -3,6 +3,13 @@ CPSC-298-03
 bdang@chapman.edu
 
 
+# Indentifying Information
+1. Name: Bryan Dang
+2. Student ID: 2295344
+3. Email: bdang@chapman.edu
+4. Class: 298-03
+5. Assignment: cars.sh
+
 # Application Purpose
 
 This repo will contain a bash script named “cars.sh” that will help a user maintain an inventory of old cars.  
